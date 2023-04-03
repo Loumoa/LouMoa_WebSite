@@ -23,3 +23,4 @@ const Card = ({width, height, color, textColor, onClick, children}: CardProps) =
         </div>
     );
 }
+export default Card;
