@@ -1,0 +1,43 @@
+.housing-category {
+    margin: 40px 0 40px 100px;
+}
+
+.cards {
+    display : flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    margin-left: 50px;
+}
+
+.card {
+    display: flex;
+    justify-content: center !important;
+
+    border-radius: 18px;
+    overflow: hidden;
+
+    margin: 20px 20px;
+}
+
+.card-img{
+    width: 100%;
+}
+
+.card-content {
+    margin: 10px 0 10px 20px;
+}
+
+button {
+    font-size: 10px !important;
+}
+
+.card-bottom {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.card-price {
+    margin-right: 10px;
+}
