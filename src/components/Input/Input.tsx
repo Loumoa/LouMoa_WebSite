@@ -10,7 +10,6 @@ interface Props {
     defaultValue?: string
     name?: string
     disabled?: boolean
-    position: 'end' | 'start'
     children : JSX.Element | string
 }
 

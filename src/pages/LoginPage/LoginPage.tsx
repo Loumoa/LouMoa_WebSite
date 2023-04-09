@@ -7,7 +7,7 @@ import Button from '../../components/Button/Button';
 
 import {IconButton} from "@mui/material";
 import React from "react";
-// icones
+// icons
 import Visibility from '@mui/icons-material/Visibility';
 import VisibilityOff from '@mui/icons-material/VisibilityOff';
 import EmailIcon from '@mui/icons-material/Email';
@@ -28,12 +28,12 @@ const LoginPage = () => {
                         <p>Veuillez saisir vos informations</p>
                         <div className={"form-inputs"}>
                             <div className={'form-input-text'}>
-                                <Input label={"Email"} type={"text"} position={"end"} children={<IconButton>
+                                <Input label={"Email"} type={"text"} children={<IconButton>
                                     <EmailIcon/>
                                 </IconButton>} />
                             </div>
                             <div className={'form-input-text'}>
-                                <Input label={"Mot de passe"} type={"password"} position={"end"} children={<IconButton
+                                <Input label={"Mot de passe"} type={"password"} children={<IconButton
                                     aria-label="toggle password visibility"
                                     onClick={handleClickShowPassword}
                                        onMouseDown={handleMouseDownPassword}
