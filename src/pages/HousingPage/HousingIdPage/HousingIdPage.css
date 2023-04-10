@@ -1,11 +1,11 @@
 .housing-info{
     display: flex;
     flex-direction: row;
-
 }
 
 .Housing-content{
     display: flex;
+    padding: 0 5%;
 
 }
 .housing-infos{
@@ -15,6 +15,18 @@
 
 }
 
+.housing-title{
+    padding: 2% 5%;
+}
+
+.housing-title > h1, .housing-title > h3{
+    padding: 0;
+    margin: 0;
+}
+.housing-title > h3{
+    font-weight: normal;
+}
+
 .card{
     display: flex;
     justify-content: center !important;
@@ -22,4 +34,20 @@
     overflow: hidden;
     margin: 20px 20px;
     flex-direction: column;
+}
+
+.card-img{
+    border-radius: 18px;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10% 4%;
+}
+
+.card-container>h3{
+    margin:0;
 }

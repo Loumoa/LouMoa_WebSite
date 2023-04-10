@@ -37,16 +37,16 @@ const HousingIdPage = ({id}: HousingIdProps) => {
             </div>
 
             <div className='housing-title'>
-                <h1>Nom du bien</h1>
-                <h3>propriétaire - catégorie</h3>
+                <h1>Maison de Mickey</h1>
+                <h3>Propriétaire - Type de logement</h3>
             </div>
             <div className='Housing-content'>
                 <img className={'card-img'}
-                     src={'https://media.discordapp.net/attachments/1086366718227664986/1094627837203452014/Logo_LouMoa.png'}
+                     src={'https://cdn.discordapp.com/attachments/1086366718227664986/1095032371142738161/image.png'}
                      alt={'bogoss'}/>
                 <div className='housing-infos'>
                     <div className='housing-info'>
-                        <Card width={300} height={'auto'} color={'rgb(131, 184, 197, 0.65)'}>
+                        <Card width={300} height={'auto'} color={'#83B8C5'}>
                             <>
                                 <div className='card-container'>
                                     <HotelIcon style={{
@@ -58,7 +58,7 @@ const HousingIdPage = ({id}: HousingIdProps) => {
                                 </div>
                             </>
                         </Card>
-                        <Card width={300} height={'auto'} color={'rgb(131, 184, 197, 0.65)'}>
+                        <Card width={300} height={'auto'} color={'#A0B9BF'}>
                             <>
                                 <div className='card-container'>
                                     <CropSquareIcon style={{
@@ -70,7 +70,7 @@ const HousingIdPage = ({id}: HousingIdProps) => {
                                 </div>
                             </>
                         </Card>
-                        <Card width={300} height={'auto'} color={'rgb(131, 184, 197, 0.65)'}>
+                        <Card width={300} height={'auto'} color={'#51818C'}>
                             <>
                                 <div className='card-container'>
                                     <LocationOnIcon style={{
