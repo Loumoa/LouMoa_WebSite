@@ -7,14 +7,20 @@
 
 //Import Composants
 
-import Menu from '../../../components/Menu/Menu'
+import Bar from "../../../components/Bar/Bar";
 
-const HousingIdPage= () => {
+interface HousingIdProps{
+    id :number,
+}
+const HousingIdPage= ({id}: HousingIdProps) => {
+    const menu = [{value: '/home', label: 'Accueil'}, {value: "/housing", label: 'Locations'}]
     return (
 
         <>
             <div className='App'>
-                <Menu/>
+                <Bar pages={menu}
+                          settings={[{value: 'profile', label: 'Profil'},{value: 'logout', label: 'Déconnexion'}]} barcolor='rgb(131, 184, 197, 0.65)'
+                />
             </div>
             <div><h1>MAISON SOLO</h1></div>
         </>

@@ -41,3 +41,8 @@ button {
 .card-price {
     margin-right: 10px;
 }
+
+.form-input-button{
+    display: flex;
+    align-items: flex-end;
+}

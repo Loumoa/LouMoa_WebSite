@@ -8,7 +8,7 @@ const HousingPage = () => {
 
     const params = useParams()
 
-    return params.id ? <HousingIdPage/> : <AllHousingPage/>
+    return params.id ? <HousingIdPage id={parseInt(params.id)}/> : <AllHousingPage/>
 }
 
 export default HousingPage
