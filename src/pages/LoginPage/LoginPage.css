@@ -1,11 +1,11 @@
 .login-content{
-    height: 80vh;
-    width: 96%;
-    margin: 5% 2% 0 2%;
+    padding: 2vh;
+    width: auto;
+    height: 96vh;
     overflow: hidden;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    align-items: center;
 }
 .pass-text{
     font-size: 12px;
@@ -14,24 +14,28 @@
 }
 
 .form-login {
-    width: 35%;
+    width: 70%;
+    height: 80%;
     display: flex;
     flex-direction: column;
-    margin: 10% 5% 0 0;
-    padding: 0 5% 0 0;
+    padding: 3%;
+    flex-grow: 2;
+    justify-content: center;
 }
-
-
+p, h2{
+    margin: 0;
+}
 .welcome-content {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95%;
+    width: 95%;
 }
 
-
-
 .image-login {
+    height: 95%;
     width: auto;
-    max-height: 100%;
-    margin: 0 5% 5% 0;
 }
 
 .form-inputs {
@@ -39,13 +43,17 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+}
 
-    height: 40%;
-    margin-top: 15%;
+.form-inputs>*{
+    margin: 3%;
+}
+
+.form-inputs :nth-child(3){
+    margin: 0;
+    align-self :flex-end;
 }
 
 .form-title {
-    background-color: #3B3829;
-    color: white;
-    padding: 5% 5% 5% 10%;
+    display: block;
 }

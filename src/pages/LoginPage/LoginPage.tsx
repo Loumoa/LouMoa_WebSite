@@ -23,7 +23,7 @@ const LoginPage = () => {
             <div className="login-page">
                 <div className={"login-content"}>
 
-                    <div className={'form_login'}>
+                    <div className={'form-login'}>
                         <h2 className={"form-title"}>Bienvenue sur Loumoa</h2>
                         <p>Veuillez saisir vos informations</p>
                         <div className={"form-inputs"}>
