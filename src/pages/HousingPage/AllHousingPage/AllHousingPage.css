@@ -46,3 +46,9 @@ button {
     display: flex;
     align-items: flex-end;
 }
+
+.form-input-text{
+    display: flex;
+    flex-wrap: wrap;
+}
+

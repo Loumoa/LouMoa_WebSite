@@ -1,8 +1,19 @@
 .housing-info{
     display: flex;
+    flex-direction: row;
+
 }
 
+.Housing-content{
+    display: flex;
 
+}
+.housing-infos{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
 
 .card{
     display: flex;
